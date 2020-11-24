@@ -1,0 +1,274 @@
+#nav-img {
+  max-height: 46px;
+}
+
+.navbar-brand {
+  padding-top: 6px;
+}
+
+.navbar li a:link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+  color: #E58164 !important;
+}
+
+.navbar {
+  background-color: background: #bfd255;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #bfd255 0%, #8eb92a 34%, #72aa00 66%, #6b7c1c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #bfd255 0%, #8eb92a 34%, #72aa00 66%, #6b7c1c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #bfd255 0%, #8eb92a 34%, #72aa00 66%, #6b7c1c 100%);
+  border: none;
+}
+
+body {
+  padding-top: 50px;
+  background: #cb60b3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 31%, #712887 64%, #6b0089 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cb60b3 0%, #c146a1 31%, #712887 64%, #6b0089 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cb60b3 0%, #c146a1 31%, #712887 64%, #6b0089 100%);
+}
+
+
+a:link {
+  color: #E58164;
+}
+
+a:hover {
+  color: #B2644D !important;
+}
+
+a:visited {
+  color: #E58164;
+}
+
+p {
+  color: #665955;
+}
+
+.full {
+  height: auto;
+  background-color: #816476;
+  border-bottom: 5pt solid #59404f;
+}
+
+#mobile-img {
+  margin: 20px auto 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(89, 64, 79, .5);
+}
+
+#intro {
+  margin: 10px 0 100px 0px;
+  padding: 20px 30px 20px 30px;
+  background-color: rgba(197, 16, 16, 0.1);
+  border-radius: 5px 20px 5px;
+  color: #f10707;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: #b42700;
+  font-size: 2.35em;
+  font-family: 'p22 pouty pro', cursive;
+}
+
+h1 small {
+  color: #B2644D;
+  text-shadow: 0 1px 1px rgba(89, 64, 79, .5);
+}
+
+#intro p {
+  color: #665955;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+#portfolio {
+  background-color: rgb(255, 240, 235);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.btn-custom {
+  text-align: center;
+  background-color: #b42700;
+  color: #ffffff;
+  margin: 5px 0 5px 0;
+}
+
+h3 {
+  color: #59404f;
+  text-align: center;
+}
+
+.section-header {
+  padding-bottom: 15px;
+}
+
+#about {
+  background-color: rgb(255, 240, 235);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+#about p {
+  color: #665955;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+#profile-img {
+  margin: 0 auto;
+  border-radius: 10%;
+  max-width: 200px;
+  box-shadow: 0 2px 5px rgba(89, 64, 79, .5);
+}
+
+#bio {
+  margin-top: 15px;
+}
+
+#connect {
+  background: #a90329;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+#connect-text {
+  font-size: 1.25em;
+}
+
+#connect a:link {
+  color: #fff;
+}
+
+#connect a:hover {
+  color: #E58164 !important;
+  text-decoration: none;
+}
+
+#connect a:visited {
+  color: #fff;
+}
+
+
+.social-icons li {
+  padding: 0 15px;
+}
+
+.closing {
+  margin: 15px 0 5px 0;
+}
+
+.closing a:link {
+  color: #59404f;
+}
+
+.closing a:hover {
+  color: #B2644D !important;
+}
+
+.closing a:visited {
+  color: #ffffff;
+}
+
+.contact-info {
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 770px) {
+  .full {
+    background: url(https://res.cloudinary.com/seneca/image/upload/c_scale,h_677,q_auto:best,w_1903/v1606174272/2_nujojy.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 440px;
+  }
+
+  #mobile-img {
+    display: none;
+  }
+
+  #intro {
+    margin: 50px 15px 30px 0px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(255, 240, 235, .6);
+    border-radius: 8px;
+    color: #756D5B;
+    text-align: center
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #about p {
+    padding-right: 15px;
+  }
+
+  #bio {
+    margin-top: 0;
+  }
+
+  #connect-text {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .full {
+    background: url(https://res.cloudinary.com/seneca/image/upload/c_scale,h_677,q_auto:best,w_1903/v1606174272/2_nujojy.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 425px;
+  }
+
+  #mobile-img {
+    display: none;
+  }
+
+  #intro {
+    margin: 50px 50px 50px 0px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(255, 240, 235, .6);
+    border-radius: 8px;
+    color: #756D5B;
+    text-align: center
+  }
+
+  h1 {
+    font-size: 2.85em;
+  }
+
+  #bio {
+    margin-top: 20px;
+  }
+
+  #connect-text {
+    font-size: 1.5em;
+  }
+
+}
